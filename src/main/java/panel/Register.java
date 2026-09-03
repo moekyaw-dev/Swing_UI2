@@ -15,6 +15,7 @@ public class Register extends javax.swing.JPanel {
      */
     public Register() {
         initComponents();
+        
     }
 
     /**
@@ -163,6 +164,7 @@ public class Register extends javax.swing.JPanel {
     }// </editor-fold>//GEN-END:initComponents
 
     //Created new branch Register and push
+    //remove .jar and edited git ignore
     private void txtComfirmPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtComfirmPasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtComfirmPasswordActionPerformed
