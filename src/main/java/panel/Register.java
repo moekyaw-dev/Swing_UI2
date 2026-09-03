@@ -162,6 +162,7 @@ public class Register extends javax.swing.JPanel {
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 510));
     }// </editor-fold>//GEN-END:initComponents
 
+    //Created new branch Register and push
     private void txtComfirmPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtComfirmPasswordActionPerformed
         // TODO add your handling code here:
     }//GEN-LAST:event_txtComfirmPasswordActionPerformed
