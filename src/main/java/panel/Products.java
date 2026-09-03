@@ -30,8 +30,6 @@ public class Products extends javax.swing.JPanel {
 
         setRequestFocusEnabled(false);
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-
-        jLabel1.setIcon(new javax.swing.ImageIcon("C:\\Users\\USER\\Pictures\\Screenshots\\Screenshot 2026-07-31 143209.png")); // NOI18N
         add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 420, 400));
     }// </editor-fold>//GEN-END:initComponents
 
