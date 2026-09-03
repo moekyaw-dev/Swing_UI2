@@ -56,32 +56,25 @@ public class Register extends javax.swing.JPanel {
         kGradientPanel2.setBackground(new java.awt.Color(0, 0, 0));
         kGradientPanel2.setkBorderRadius(60);
         kGradientPanel2.setkEndColor(new java.awt.Color(255, 102, 51));
-        kGradientPanel2.setkStartColor(new java.awt.Color(51, 255, 255));
+        kGradientPanel2.setkStartColor(new java.awt.Color(51, 51, 255));
 
-        lblFullName.setForeground(new java.awt.Color(255, 255, 255));
         lblFullName.setText("Full Name");
 
         lblRegisteruser.setFont(new java.awt.Font("Bodoni MT", 0, 18)); // NOI18N
-        lblRegisteruser.setForeground(new java.awt.Color(255, 255, 255));
         lblRegisteruser.setText("REGISTER USER");
 
-        lblUsername.setForeground(new java.awt.Color(255, 255, 255));
         lblUsername.setText("Username");
 
-        lblrole.setForeground(new java.awt.Color(255, 255, 255));
         lblrole.setText("role");
 
-        lblPassword.setForeground(new java.awt.Color(255, 255, 255));
         lblPassword.setText("Password");
 
-        lblComfirmPassword.setForeground(new java.awt.Color(255, 255, 255));
         lblComfirmPassword.setText("Comfirm Password");
 
         txtComfirmPassword.addActionListener(this::txtComfirmPasswordActionPerformed);
 
         cborole.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Owner", "Manager", "Cashier" }));
 
-        lblAlready.setForeground(new java.awt.Color(255, 255, 255));
         lblAlready.setText("Already have an account?");
 
         btnLogin.setText("[Login]");
