@@ -43,7 +43,7 @@ public class Menu extends javax.swing.JPanel {
         jLabel2.setForeground(new java.awt.Color(255, 255, 255));
         jLabel2.setText("Menu");
 
-        jLabel3.setText("jLabel3");
+        jLabel3.setText("Banana oil");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
