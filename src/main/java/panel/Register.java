@@ -29,7 +29,7 @@ public class Register extends javax.swing.JPanel {
 
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
         jPanel1 = new javax.swing.JPanel();
-        kGradientPanel2 = new com.k33ptoo.components.KGradientPanel();
+        kGradientPanel2 = new org.netbeans.modules.form.InvalidComponent();
         lblFullName = new javax.swing.JLabel();
         lblRegisteruser = new javax.swing.JLabel();
         lblUsername = new javax.swing.JLabel();
@@ -54,11 +54,15 @@ public class Register extends javax.swing.JPanel {
         jPanel1.setPreferredSize(new java.awt.Dimension(605, 510));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
+<<<<<<< HEAD
+        lblFullName.setForeground(new java.awt.Color(255, 255, 255));
+=======
         kGradientPanel2.setBackground(new java.awt.Color(0, 0, 0));
         kGradientPanel2.setkBorderRadius(60);
         kGradientPanel2.setkEndColor(new java.awt.Color(255, 102, 51));
         kGradientPanel2.setkStartColor(new java.awt.Color(51, 51, 255));
 
+>>>>>>> caf1cd3405ab92e1d8d48e5b5ae40943364c46f5
         lblFullName.setText("Full Name");
 
         lblRegisteruser.setFont(new java.awt.Font("Bodoni MT", 0, 18)); // NOI18N
@@ -120,7 +124,7 @@ public class Register extends javax.swing.JPanel {
                     .addGroup(kGradientPanel2Layout.createSequentialGroup()
                         .addGap(215, 215, 215)
                         .addComponent(lblRegisteruser)))
-                .addContainerGap(245, Short.MAX_VALUE))
+                .addContainerGap(242, Short.MAX_VALUE))
         );
         kGradientPanel2Layout.setVerticalGroup(
             kGradientPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
@@ -178,7 +182,7 @@ public class Register extends javax.swing.JPanel {
     private javax.swing.JFormattedTextField jFormattedTextField1;
     private javax.swing.JPanel jPanel1;
     private javax.swing.JPasswordField jPasswordField2;
-    private com.k33ptoo.components.KGradientPanel kGradientPanel2;
+    private org.netbeans.modules.form.InvalidComponent kGradientPanel2;
     private javax.swing.JLabel lblAlready;
     private javax.swing.JLabel lblComfirmPassword;
     private javax.swing.JLabel lblFullName;
