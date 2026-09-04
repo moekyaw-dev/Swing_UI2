@@ -49,7 +49,7 @@ public class Menu extends javax.swing.JPanel {
 
         jLabel4.setText("jLabel4");
 
-        jLabel5.setText("jLabel5");
+        jLabel5.setText("Baking");
 
         javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
         jPanel1.setLayout(jPanel1Layout);
