@@ -15,6 +15,13 @@ import javax.swing.JOptionPane;
 import javax.swing.JPanel;
 import javax.swing.JPasswordField;
 import javax.swing.JTextField;
+import panel.Dashboard;
+import panel.LogIn;
+import panel.Products;
+import panel.Register;
+import panel.Users;
+import panels.Menu;
+import panel.setting;
 
 
 /**
@@ -31,18 +38,16 @@ public class Home extends javax.swing.JFrame {
     public Home() {
         initComponents();
         setLocationRelativeTo(null);
-        
-
     }
 
     private void showPanel(JPanel panel){
-        if(checklogin()){
+        //if(checklogin()){
         contentPanel.removeAll();
         contentPanel.setLayout(new BorderLayout());
         contentPanel.add(panel, BorderLayout.CENTER);
         contentPanel.revalidate();
         contentPanel.repaint();
-        }
+       // }
     }
     
     @SuppressWarnings("unchecked")
@@ -95,6 +100,7 @@ public class Home extends javax.swing.JFrame {
 
         btnSetting.setBackground(new java.awt.Color(0, 153, 255));
         btnSetting.setText("Setting");
+        btnSetting.addActionListener(this::btnSettingActionPerformed);
 
         btnLogin.setBackground(new java.awt.Color(0, 153, 255));
         btnLogin.setText("Login");
@@ -159,11 +165,11 @@ public class Home extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void btnDashboardActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnDashboardActionPerformed
-       
+       showPanel(new Dashboard());
     }//GEN-LAST:event_btnDashboardActionPerformed
 
     private void btnRegisterActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegisterActionPerformed
-        
+        showPanel(new Register());
     }//GEN-LAST:event_btnRegisterActionPerformed
 
     private void jButton8ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton8ActionPerformed
@@ -171,22 +177,25 @@ public class Home extends javax.swing.JFrame {
     }//GEN-LAST:event_jButton8ActionPerformed
 
     private void btnUsersActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnUsersActionPerformed
-       /* if(checklogin()){
-       }*/
+       showPanel(new Users());
         
     }//GEN-LAST:event_btnUsersActionPerformed
 
     private void btnProductsActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnProductsActionPerformed
-        
+        showPanel(new Products());
     }//GEN-LAST:event_btnProductsActionPerformed
 
     private void btnMenuActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnMenuActionPerformed
-        //test
+        showPanel(new Menu());
     }//GEN-LAST:event_btnMenuActionPerformed
 
     private void btnLoginActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnLoginActionPerformed
-        
+        showPanel(new LogIn());
     }//GEN-LAST:event_btnLoginActionPerformed
+
+    private void btnSettingActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnSettingActionPerformed
+        showPanel(new setting());
+    }//GEN-LAST:event_btnSettingActionPerformed
    private boolean checklogin(){
         JTextField txtName = new JTextField();
         JPasswordField txtPassword = new JPasswordField();
