@@ -8,12 +8,12 @@ package panel;
  *
  * @author Dell
  */
-public class setting extends javax.swing.JPanel {
+public class Setting extends javax.swing.JPanel {
 
     /**
      * Creates new form setting
      */
-    public setting() {
+    public Setting() {
         initComponents();
     }
 
