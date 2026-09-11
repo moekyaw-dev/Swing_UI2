@@ -15,6 +15,7 @@ public class Register extends javax.swing.JPanel {
      */
     public Register() {
         initComponents();
+        
     }
 
     /**
@@ -28,20 +29,164 @@ public class Register extends javax.swing.JPanel {
 
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
         jPanel1 = new javax.swing.JPanel();
+<<<<<<< HEAD
+=======
+        lblFullName = new javax.swing.JLabel();
+        lblRegisteruser = new javax.swing.JLabel();
+        lblUsername = new javax.swing.JLabel();
+        lblrole = new javax.swing.JLabel();
+        lblPassword = new javax.swing.JLabel();
+        lblComfirmPassword = new javax.swing.JLabel();
+        txtFullName = new javax.swing.JTextField();
+        txtUsername = new javax.swing.JTextField();
+        txtComfirmPassword = new javax.swing.JPasswordField();
+        jPasswordField2 = new javax.swing.JPasswordField();
+        cborole = new javax.swing.JComboBox<>();
+        lblAlready = new javax.swing.JLabel();
+        btnLogin = new javax.swing.JButton();
+        btnRegister = new javax.swing.JButton();
+        btnClear = new javax.swing.JButton();
+>>>>>>> origin/Products
 
         jFormattedTextField1.setText("jFormattedTextField1");
 
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jPanel1.setBackground(new java.awt.Color(0, 0, 0));
+        jPanel1.setBackground(new java.awt.Color(51, 153, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(605, 510));
+<<<<<<< HEAD
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 510));
     }// </editor-fold>//GEN-END:initComponents
 
+=======
+
+        lblFullName.setText("Full Name");
+
+        lblRegisteruser.setFont(new java.awt.Font("Bodoni MT", 0, 18)); // NOI18N
+        lblRegisteruser.setText("REGISTER USER");
+
+        lblUsername.setText("Username");
+
+        lblrole.setText("role");
+
+        lblPassword.setText("Password");
+
+        lblComfirmPassword.setText("Comfirm Password");
+
+        txtComfirmPassword.addActionListener(this::txtComfirmPasswordActionPerformed);
+
+        cborole.setModel(new javax.swing.DefaultComboBoxModel<>(new String[] { "Owner", "Manager", "Cashier" }));
+
+        lblAlready.setText("Already have an account?");
+
+        btnLogin.setText("[Login]");
+
+        btnRegister.setText("Register");
+
+        btnClear.setText("Clear");
+
+        javax.swing.GroupLayout jPanel1Layout = new javax.swing.GroupLayout(jPanel1);
+        jPanel1.setLayout(jPanel1Layout);
+        jPanel1Layout.setHorizontalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(162, 162, 162)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addComponent(lblUsername, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblFullName, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblComfirmPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 106, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(lblrole, javax.swing.GroupLayout.PREFERRED_SIZE, 81, javax.swing.GroupLayout.PREFERRED_SIZE)
+                            .addComponent(btnRegister))
+                        .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(46, 46, 46)
+                                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                                    .addComponent(cborole, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE)
+                                    .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.TRAILING, false)
+                                        .addComponent(txtFullName)
+                                        .addComponent(txtUsername)
+                                        .addComponent(jPasswordField2, javax.swing.GroupLayout.Alignment.LEADING)
+                                        .addComponent(txtComfirmPassword, javax.swing.GroupLayout.Alignment.LEADING, javax.swing.GroupLayout.PREFERRED_SIZE, 90, javax.swing.GroupLayout.PREFERRED_SIZE))))
+                            .addGroup(jPanel1Layout.createSequentialGroup()
+                                .addGap(16, 16, 16)
+                                .addComponent(btnClear))))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(25, 25, 25)
+                        .addComponent(lblAlready, javax.swing.GroupLayout.PREFERRED_SIZE, 145, javax.swing.GroupLayout.PREFERRED_SIZE)
+                        .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
+                        .addComponent(btnLogin))
+                    .addGroup(jPanel1Layout.createSequentialGroup()
+                        .addGap(136, 136, 136)
+                        .addComponent(lblRegisteruser)))
+                .addContainerGap(157, Short.MAX_VALUE))
+        );
+        jPanel1Layout.setVerticalGroup(
+            jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+            .addGroup(jPanel1Layout.createSequentialGroup()
+                .addGap(33, 33, 33)
+                .addComponent(lblRegisteruser)
+                .addGap(18, 18, 18)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
+                    .addComponent(lblFullName)
+                    .addComponent(txtFullName, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(36, 36, 36)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblUsername)
+                    .addComponent(txtUsername, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(43, 43, 43)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(jPasswordField2, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(lblPassword, javax.swing.GroupLayout.PREFERRED_SIZE, 22, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(28, 28, 28)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblComfirmPassword)
+                    .addComponent(txtComfirmPassword, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(33, 33, 33)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblrole)
+                    .addComponent(cborole, javax.swing.GroupLayout.PREFERRED_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.PREFERRED_SIZE))
+                .addGap(45, 45, 45)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(btnRegister)
+                    .addComponent(btnClear))
+                .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, 61, Short.MAX_VALUE)
+                .addGroup(jPanel1Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.BASELINE)
+                    .addComponent(lblAlready)
+                    .addComponent(btnLogin))
+                .addGap(34, 34, 34))
+        );
+
+        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 510));
+    }// </editor-fold>//GEN-END:initComponents
+
+    //Created new branch Register and push
+    //remove .jar and edited git ignore
+    private void txtComfirmPasswordActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_txtComfirmPasswordActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_txtComfirmPasswordActionPerformed
+
+>>>>>>> origin/Products
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
     private javax.swing.JFormattedTextField jFormattedTextField1;
     private javax.swing.JPanel jPanel1;
+<<<<<<< HEAD
+=======
+    private javax.swing.JPasswordField jPasswordField2;
+    private javax.swing.JLabel lblAlready;
+    private javax.swing.JLabel lblComfirmPassword;
+    private javax.swing.JLabel lblFullName;
+    private javax.swing.JLabel lblPassword;
+    private javax.swing.JLabel lblRegisteruser;
+    private javax.swing.JLabel lblUsername;
+    private javax.swing.JLabel lblrole;
+    private javax.swing.JPasswordField txtComfirmPassword;
+    private javax.swing.JTextField txtFullName;
+    private javax.swing.JTextField txtUsername;
+>>>>>>> origin/Products
     // End of variables declaration//GEN-END:variables
 }
