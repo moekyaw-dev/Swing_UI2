@@ -29,8 +29,6 @@ public class Register extends javax.swing.JPanel {
 
         jFormattedTextField1 = new javax.swing.JFormattedTextField();
         jPanel1 = new javax.swing.JPanel();
-<<<<<<< HEAD
-=======
         lblFullName = new javax.swing.JLabel();
         lblRegisteruser = new javax.swing.JLabel();
         lblUsername = new javax.swing.JLabel();
@@ -46,7 +44,6 @@ public class Register extends javax.swing.JPanel {
         btnLogin = new javax.swing.JButton();
         btnRegister = new javax.swing.JButton();
         btnClear = new javax.swing.JButton();
->>>>>>> origin/Products
 
         jFormattedTextField1.setText("jFormattedTextField1");
 
@@ -54,12 +51,6 @@ public class Register extends javax.swing.JPanel {
 
         jPanel1.setBackground(new java.awt.Color(51, 153, 255));
         jPanel1.setPreferredSize(new java.awt.Dimension(605, 510));
-<<<<<<< HEAD
-        jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
-        add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, -1, 510));
-    }// </editor-fold>//GEN-END:initComponents
-
-=======
 
         lblFullName.setText("Full Name");
 
@@ -169,13 +160,14 @@ public class Register extends javax.swing.JPanel {
         // TODO add your handling code here:
     }//GEN-LAST:event_txtComfirmPasswordActionPerformed
 
->>>>>>> origin/Products
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnClear;
+    private javax.swing.JButton btnLogin;
+    private javax.swing.JButton btnRegister;
+    private javax.swing.JComboBox<String> cborole;
     private javax.swing.JFormattedTextField jFormattedTextField1;
     private javax.swing.JPanel jPanel1;
-<<<<<<< HEAD
-=======
     private javax.swing.JPasswordField jPasswordField2;
     private javax.swing.JLabel lblAlready;
     private javax.swing.JLabel lblComfirmPassword;
@@ -187,6 +179,5 @@ public class Register extends javax.swing.JPanel {
     private javax.swing.JPasswordField txtComfirmPassword;
     private javax.swing.JTextField txtFullName;
     private javax.swing.JTextField txtUsername;
->>>>>>> origin/Products
     // End of variables declaration//GEN-END:variables
 }
