@@ -40,6 +40,11 @@
         </Constraint>
       </Constraints>
 
+<<<<<<< HEAD
+      <Layout class="org.netbeans.modules.form.compat2.layouts.DesignAbsoluteLayout">
+        <Property name="useNullLayout" type="boolean" value="false"/>
+      </Layout>
+=======
       <Layout>
         <DimensionLayout dim="0">
           <Group type="103" groupAlignment="0" attributes="0">
@@ -210,6 +215,7 @@
           </Properties>
         </Component>
       </SubComponents>
+>>>>>>> origin/Products
     </Container>
   </SubComponents>
 </Form>

@@ -32,6 +32,9 @@ public class Products extends javax.swing.JPanel {
 
         setRequestFocusEnabled(false);
         setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
+<<<<<<< HEAD
+        add(jLabel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 420, 400));
+=======
 
         jPanel1.setBackground(new java.awt.Color(255, 204, 204));
         jPanel1.setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
@@ -48,6 +51,7 @@ public class Products extends javax.swing.JPanel {
         jPanel1.add(jLabel3, new org.netbeans.lib.awtextra.AbsoluteConstraints(140, 120, 320, 80));
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 400));
+>>>>>>> 9452a3bf6a4dac8e36744c6c8d591a90a2a42f2b
     }// </editor-fold>//GEN-END:initComponents
 
 
