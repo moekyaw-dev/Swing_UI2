@@ -83,13 +83,6 @@ public class Dashboard extends javax.swing.JPanel {
                                 .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING, false)
                                     .addComponent(jTextField1)
                                     .addComponent(jPasswordField1, javax.swing.GroupLayout.DEFAULT_SIZE, 107, Short.MAX_VALUE)
-<<<<<<< HEAD
-                                    .addComponent(jTextField2)))))
-                    .addGroup(jPanel2Layout.createSequentialGroup()
-                        .addGap(188, 188, 188)
-                        .addComponent(jButton1)))
-                .addContainerGap(174, Short.MAX_VALUE))
-=======
                                     .addComponent(jTextField2)))
                             .addGroup(jPanel2Layout.createSequentialGroup()
                                 .addComponent(jLabel3, javax.swing.GroupLayout.PREFERRED_SIZE, 184, javax.swing.GroupLayout.PREFERRED_SIZE)
@@ -97,7 +90,6 @@ public class Dashboard extends javax.swing.JPanel {
                                 .addComponent(jLabel5, javax.swing.GroupLayout.PREFERRED_SIZE, 40, javax.swing.GroupLayout.PREFERRED_SIZE)
                                 .addGap(8, 8, 8)))))
                 .addGap(73, 175, Short.MAX_VALUE))
->>>>>>> d3aa6acc10427e4e440a7d364572d4a1343c39d0
         );
         jPanel2Layout.setVerticalGroup(
             jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)

@@ -63,13 +63,10 @@
               <Group type="102" attributes="0">
                   <Group type="103" groupAlignment="0" attributes="0">
                       <Group type="102" attributes="0">
-<<<<<<< HEAD
-=======
                           <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
                           <Component id="jButton1" min="-2" max="-2" attributes="0"/>
                       </Group>
                       <Group type="102" alignment="0" attributes="0">
->>>>>>> d3aa6acc10427e4e440a7d364572d4a1343c39d0
                           <EmptySpace min="-2" pref="120" max="-2" attributes="0"/>
                           <Group type="103" groupAlignment="1" attributes="0">
                               <Group type="102" attributes="0">
@@ -93,13 +90,6 @@
                               </Group>
                           </Group>
                       </Group>
-<<<<<<< HEAD
-                      <Group type="102" alignment="0" attributes="0">
-                          <EmptySpace min="-2" pref="188" max="-2" attributes="0"/>
-                          <Component id="jButton1" min="-2" max="-2" attributes="0"/>
-                      </Group>
-=======
->>>>>>> d3aa6acc10427e4e440a7d364572d4a1343c39d0
                   </Group>
                   <EmptySpace min="73" pref="175" max="32767" attributes="0"/>
               </Group>
