@@ -64,8 +64,8 @@ public class Home extends javax.swing.JFrame {
         btnUsers = new javax.swing.JButton();
         btnRegister = new javax.swing.JButton();
         btnReports = new javax.swing.JButton();
-        btnRegister1 = new javax.swing.JButton();
-        btnRegister2 = new javax.swing.JButton();
+        btnCustomer = new javax.swing.JButton();
+        btnInventory = new javax.swing.JButton();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         setBackground(new java.awt.Color(255, 255, 255));
@@ -119,13 +119,13 @@ public class Home extends javax.swing.JFrame {
         btnReports.setBackground(new java.awt.Color(0, 153, 255));
         btnReports.setText("Reports");
 
-        btnRegister1.setBackground(new java.awt.Color(0, 153, 255));
-        btnRegister1.setText("Customer");
-        btnRegister1.addActionListener(this::btnRegister1ActionPerformed);
+        btnCustomer.setBackground(new java.awt.Color(0, 153, 255));
+        btnCustomer.setText("Customer");
+        btnCustomer.addActionListener(this::btnCustomerActionPerformed);
 
-        btnRegister2.setBackground(new java.awt.Color(0, 153, 255));
-        btnRegister2.setText("Inventory");
-        btnRegister2.addActionListener(this::btnRegister2ActionPerformed);
+        btnInventory.setBackground(new java.awt.Color(0, 153, 255));
+        btnInventory.setText("Inventory");
+        btnInventory.addActionListener(this::btnInventoryActionPerformed);
 
         javax.swing.GroupLayout jPanel2Layout = new javax.swing.GroupLayout(jPanel2);
         jPanel2.setLayout(jPanel2Layout);
@@ -148,12 +148,12 @@ public class Home extends javax.swing.JFrame {
                 .addContainerGap())
             .addGroup(javax.swing.GroupLayout.Alignment.TRAILING, jPanel2Layout.createSequentialGroup()
                 .addContainerGap()
-                .addComponent(btnRegister1, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                .addComponent(btnCustomer, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                 .addContainerGap())
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addContainerGap()
-                    .addComponent(btnRegister2, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
+                    .addComponent(btnInventory, javax.swing.GroupLayout.DEFAULT_SIZE, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
                     .addContainerGap()))
         );
         jPanel2Layout.setVerticalGroup(
@@ -176,12 +176,12 @@ public class Home extends javax.swing.JFrame {
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.UNRELATED)
                 .addComponent(btnReports, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addPreferredGap(javax.swing.LayoutStyle.ComponentPlacement.RELATED, javax.swing.GroupLayout.DEFAULT_SIZE, Short.MAX_VALUE)
-                .addComponent(btnRegister1, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                .addComponent(btnCustomer, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                 .addContainerGap())
             .addGroup(jPanel2Layout.createParallelGroup(javax.swing.GroupLayout.Alignment.LEADING)
                 .addGroup(jPanel2Layout.createSequentialGroup()
                     .addGap(26, 26, 26)
-                    .addComponent(btnRegister2, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
+                    .addComponent(btnInventory, javax.swing.GroupLayout.PREFERRED_SIZE, 39, javax.swing.GroupLayout.PREFERRED_SIZE)
                     .addContainerGap(449, Short.MAX_VALUE)))
         );
 
@@ -223,13 +223,13 @@ public class Home extends javax.swing.JFrame {
         showPanel(new setting());
     }//GEN-LAST:event_btnSettingActionPerformed
 
-    private void btnRegister1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegister1ActionPerformed
+    private void btnCustomerActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnCustomerActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnRegister1ActionPerformed
+    }//GEN-LAST:event_btnCustomerActionPerformed
 
-    private void btnRegister2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnRegister2ActionPerformed
+    private void btnInventoryActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnInventoryActionPerformed
         // TODO add your handling code here:
-    }//GEN-LAST:event_btnRegister2ActionPerformed
+    }//GEN-LAST:event_btnInventoryActionPerformed
    private boolean checklogin(){
         JTextField txtName = new JTextField();
         JPasswordField txtPassword = new JPasswordField();
@@ -280,13 +280,13 @@ public class Home extends javax.swing.JFrame {
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
+    private javax.swing.JButton btnCustomer;
     private javax.swing.JButton btnDashboard;
+    private javax.swing.JButton btnInventory;
     private javax.swing.JButton btnLogin;
     private javax.swing.JButton btnMenu;
     private javax.swing.JButton btnProducts;
     private javax.swing.JButton btnRegister;
-    private javax.swing.JButton btnRegister1;
-    private javax.swing.JButton btnRegister2;
     private javax.swing.JButton btnReports;
     private javax.swing.JButton btnSetting;
     private javax.swing.JButton btnUsers;

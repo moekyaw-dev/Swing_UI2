@@ -88,13 +88,13 @@
               </Group>
               <Group type="102" alignment="1" attributes="0">
                   <EmptySpace max="-2" attributes="0"/>
-                  <Component id="btnRegister1" max="32767" attributes="0"/>
+                  <Component id="btnCustomer" max="32767" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" attributes="0">
                       <EmptySpace max="-2" attributes="0"/>
-                      <Component id="btnRegister2" max="32767" attributes="0"/>
+                      <Component id="btnInventory" max="32767" attributes="0"/>
                       <EmptySpace max="-2" attributes="0"/>
                   </Group>
               </Group>
@@ -120,13 +120,13 @@
                   <EmptySpace type="unrelated" max="-2" attributes="0"/>
                   <Component id="btnReports" min="-2" pref="39" max="-2" attributes="0"/>
                   <EmptySpace max="32767" attributes="0"/>
-                  <Component id="btnRegister1" min="-2" pref="39" max="-2" attributes="0"/>
+                  <Component id="btnCustomer" min="-2" pref="39" max="-2" attributes="0"/>
                   <EmptySpace max="-2" attributes="0"/>
               </Group>
               <Group type="103" rootIndex="1" groupAlignment="0" attributes="0">
                   <Group type="102" alignment="0" attributes="0">
                       <EmptySpace min="-2" pref="26" max="-2" attributes="0"/>
-                      <Component id="btnRegister2" min="-2" pref="39" max="-2" attributes="0"/>
+                      <Component id="btnInventory" min="-2" pref="39" max="-2" attributes="0"/>
                       <EmptySpace pref="449" max="32767" attributes="0"/>
                   </Group>
               </Group>
@@ -219,7 +219,7 @@
             <Property name="text" type="java.lang.String" value="Reports"/>
           </Properties>
         </Component>
-        <Component class="javax.swing.JButton" name="btnRegister1">
+        <Component class="javax.swing.JButton" name="btnCustomer">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="99" red="0" type="rgb"/>
@@ -227,10 +227,10 @@
             <Property name="text" type="java.lang.String" value="Customer"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegister1ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnCustomerActionPerformed"/>
           </Events>
         </Component>
-        <Component class="javax.swing.JButton" name="btnRegister2">
+        <Component class="javax.swing.JButton" name="btnInventory">
           <Properties>
             <Property name="background" type="java.awt.Color" editor="org.netbeans.beaninfo.editors.ColorEditor">
               <Color blue="ff" green="99" red="0" type="rgb"/>
@@ -238,7 +238,7 @@
             <Property name="text" type="java.lang.String" value="Inventory"/>
           </Properties>
           <Events>
-            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnRegister2ActionPerformed"/>
+            <EventHandler event="actionPerformed" listener="java.awt.event.ActionListener" parameters="java.awt.event.ActionEvent" handler="btnInventoryActionPerformed"/>
           </Events>
         </Component>
       </SubComponents>
