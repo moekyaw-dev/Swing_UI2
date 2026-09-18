@@ -26,59 +26,69 @@ public class LogIn extends javax.swing.JPanel {
     // <editor-fold defaultstate="collapsed" desc="Generated Code">//GEN-BEGIN:initComponents
     private void initComponents() {
 
-        jTextField1 = new javax.swing.JTextField();
-        jTextField2 = new javax.swing.JTextField();
-        jButton1 = new javax.swing.JButton();
+        txtUserName = new javax.swing.JTextField();
+        txtPassword = new javax.swing.JTextField();
+        btLogIn = new javax.swing.JButton();
         jLabel1 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
+        jLabel3 = new javax.swing.JLabel();
 
         setBackground(new java.awt.Color(0, 0, 0));
         setMinimumSize(new java.awt.Dimension(400, 300));
         setLayout(null);
-        add(jTextField1);
-        jTextField1.setBounds(130, 120, 122, 22);
-        add(jTextField2);
-        jTextField2.setBounds(130, 170, 122, 22);
+        add(txtUserName);
+        txtUserName.setBounds(140, 120, 122, 22);
+        add(txtPassword);
+        txtPassword.setBounds(140, 170, 122, 22);
 
-        jButton1.setForeground(new java.awt.Color(0, 255, 0));
-        jButton1.setText("Log In");
-        jButton1.addActionListener(this::jButton1ActionPerformed);
-        add(jButton1);
-        jButton1.setBounds(150, 210, 72, 23);
+        btLogIn.setForeground(new java.awt.Color(0, 255, 0));
+        btLogIn.setText("Log In");
+        btLogIn.addActionListener(this::btLogInActionPerformed);
+        add(btLogIn);
+        btLogIn.setBounds(160, 210, 72, 23);
 
         jLabel1.setBackground(new java.awt.Color(255, 255, 255));
         jLabel1.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel1.setForeground(new java.awt.Color(102, 255, 102));
         jLabel1.setText("Password");
         add(jLabel1);
-        jLabel1.setBounds(130, 150, 80, 15);
+        jLabel1.setBounds(140, 150, 80, 15);
 
         jLabel2.setBackground(new java.awt.Color(255, 255, 255));
         jLabel2.setFont(new java.awt.Font("Bahnschrift", 0, 12)); // NOI18N
         jLabel2.setForeground(new java.awt.Color(102, 255, 102));
         jLabel2.setText("User Name");
         add(jLabel2);
-        jLabel2.setBounds(130, 100, 80, 15);
+        jLabel2.setBounds(140, 100, 80, 15);
+
+        jLabel3.setIcon(new javax.swing.ImageIcon("C:\\Users\\MGH\\Desktop\\Desktop\\Icon Collection\\icons8-shutdown-16.png")); // NOI18N
+        jLabel3.setText("jLabel3");
+        add(jLabel3);
+        jLabel3.setBounds(380, 280, 20, 16);
     }// </editor-fold>//GEN-END:initComponents
 
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
+    private void btLogInActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btLogInActionPerformed
         // TODO add your handling code here:
-        String name = jTextField1.getText();
-        String passwd = jTextField2.getText();
+        String name = txtUserName.getText();
+        String passwd = txtPassword.getText();
         
-        if ( name == "admin" & passwd == "123456"){
+        if ( "admin".equals(name) & "123456".equals(passwd)){
             
             System.out.println("Log In Successfull.");
             
         }
-    }//GEN-LAST:event_jButton1ActionPerformed
+        else{
+            System.out.println("Check Your UserName or Password!");
+        }
+    }//GEN-LAST:event_btLogInActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
+    private javax.swing.JButton btLogIn;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;
-    private javax.swing.JTextField jTextField1;
-    private javax.swing.JTextField jTextField2;
+    private javax.swing.JLabel jLabel3;
+    private javax.swing.JTextField txtPassword;
+    private javax.swing.JTextField txtUserName;
     // End of variables declaration//GEN-END:variables
 }
