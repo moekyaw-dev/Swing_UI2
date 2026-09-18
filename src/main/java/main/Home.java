@@ -287,6 +287,8 @@ public class Home extends javax.swing.JFrame {
     private javax.swing.JButton btnMenu;
     private javax.swing.JButton btnProducts;
     private javax.swing.JButton btnRegister;
+    private javax.swing.JButton btnRegister1;
+    private javax.swing.JButton btnRegister2;
     private javax.swing.JButton btnReports;
     private javax.swing.JButton btnSetting;
     private javax.swing.JButton btnUsers;
