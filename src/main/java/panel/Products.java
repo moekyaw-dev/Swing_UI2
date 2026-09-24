@@ -39,10 +39,15 @@ public class Products extends javax.swing.JPanel {
         jTextField1.setFont(new java.awt.Font("Serif", 0, 18)); // NOI18N
         jTextField1.setHorizontalAlignment(javax.swing.JTextField.CENTER);
         jTextField1.setText("Product Management");
+        jTextField1.addActionListener(this::jTextField1ActionPerformed);
         jPanel1.add(jTextField1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 30, 340, 40));
 
         add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(0, 0, 610, 400));
     }// </editor-fold>//GEN-END:initComponents
+
+    private void jTextField1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jTextField1ActionPerformed
+        // TODO add your handling code here:
+    }//GEN-LAST:event_jTextField1ActionPerformed
 
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
